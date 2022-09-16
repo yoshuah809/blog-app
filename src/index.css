@@ -34,7 +34,8 @@ body {
 	line-height: 1.5;
 	font-size: 0.875rem;
 }
-a {
+a,
+Link {
 	text-decoration: none;
 }
 img {
@@ -244,4 +245,6 @@ hr {
 	padding: 5px 10px 5px;
 	border-radius: 0.75rem;
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 5px 5px var(--clr-primary);
+	margin-bottom: 10px;
 }

@@ -11,7 +11,6 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<h1> Blog</h1>
 			<Routes>
 				<Route>
 					<Route index="/" element={<HomePage />} />
