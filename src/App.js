@@ -16,8 +16,8 @@ function App() {
 				<Route>
 					<Route index="/" element={<HomePage />} />
 					<Route path="about" element={<AboutPage />} />
-					<Route path="article-list" element={<ArticlesListPage />} />
-					<Route path=":articleId" element={<ArticlePage />} />
+					<Route path="articles" element={<ArticlesListPage />} />
+					<Route path="articles/:articleId" element={<ArticlePage />} />
 					<Route path="*" element={<NotFoundPage />} />
 				</Route>
 			</Routes>

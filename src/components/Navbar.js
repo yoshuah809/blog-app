@@ -54,7 +54,7 @@ const Navbar = () => {
 				<NavItems>
 					<NavItem to="/">Blog</NavItem>
 					<NavItem to="/about">About</NavItem>
-					<NavItem to="/article-list">Article List</NavItem>
+					<NavItem to="/articles">Article List</NavItem>
 				</NavItems>
 			</StyledNavbar>
 			<Outlet />
